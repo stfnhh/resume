@@ -1,0 +1,210 @@
+{
+  "basics": {
+    "name": "Stefan Harris",
+    "label": "Developer / DevOps",
+    "picture": "",
+    "email": "stfnhh@protonmail.com",
+    "phone": "+1 (508) 246-5683",
+    "website": "http://www.stfn.io",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Boston",
+      "countryCode": "US",
+      "region": "MA"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "stfnhrrs",
+        "url": "https://stackoverflow.com/users/1127025/stefan"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "",
+        "url": "https://stackoverflow.com/users/1127025/stefan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MullenLowe",
+      "position": "Sr. Web Developer",
+      "website": "https://us.mullenlowe.com",
+      "startDate": "2012-08-20",
+      "endDate": "2018-01-20",
+      "summary": "At MullenLowe I function as both a developer and devops engineer, my time is split between the two pretty much evenly. As a developer, I handle architecting and building out applications using Rails, Python and on occasion PHP depending on the needs of the client and project. My devops role is less project based and more ongoing, these day to day tasks include managing over 20 client AWS accounts, ensuring site uptime and maintaining our CI/CD pipeline. On a project basis, I handle the architecture and implementation of cloud hosting, with a focus on optimizing for low cost and high availability.",
+      "highlights": [
+        "Moved all client websites to scalable fault tolerant systems built on AWS.",
+        "Created multiple award winning web experiences.",
+        "Implemented CI/CD tools, drastically improving workflow."
+      ]
+    },
+    {
+      "company": "Simply Interactive",
+      "position": "Sr. Web Developer",
+      "website": "http://www.simplyinteractiveinc.com/",
+      "startDate": "2012-04-01",
+      "endDate": "2012-08-20",
+      "summary": "Responsibilities included leading development of an in-house CMS platform, and guiding the direction of the development team.",
+      "highlights": [
+        "Migrated all production and staging systems to the cloud.",
+        "Developed an automated script to publish content as ebooks on Amazon. "
+      ]
+    },
+    {
+      "company": "Chitika",
+      "position": "Web Developer",
+      "website": "http://www.chitika.com",
+      "startDate": "2010-05-01",
+      "endDate": "2012-01-20",
+      "summary": "Developed web applications, and web services for use in a global advertising and data network.",
+      "highlights": [
+        "Built a click to call platform to track CPA performance.",
+        "Rebuilt the client portal and added new features on a very short timeline.",
+        "Developed a dashboard to track and monitor KPI's."
+      ]
+    },
+    {
+      "company": "Captivate Marketing",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2008-12-01",
+      "endDate": "2010-05-01",
+      "summary": "Primary responsibilities include design, development and maintenance of websites for clients in the tourism industry throughout North America.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "New England Institute of Technology",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2008-09-01",
+      "endDate": "2011-12-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Emmy – Social TV Experience",
+      "date": "2014-08-01",
+      "awarder": "Television Academy Award",
+      "summary": "National Geographic: Live From Space"
+    },
+    {
+      "title": "Overall Aesthetic / Best Practice",
+      "date": "2014-08-01",
+      "awarder": "Silver Cannes Cyber Lions",
+      "summary": "National Geographic: Killing Kennedy"
+    },
+    {
+      "title": "Best in Technology",
+      "date": "2015-03-01",
+      "awarder": "The Shorty Awards",
+      "summary": "National Geographic: Live From Space"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Ruby",
+        "Python",
+        "Bash",
+        "Javascript",
+        "PHP",
+        "Elixir"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "Rails",
+        "Chalice",
+        "Flask",
+        "Wordpress",
+        "Phoenix"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Grunt",
+        "Gulp",
+        "Yarn"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "Heroku",
+        "Travis CI",
+        "Vagrant",
+        "NGINX",
+        "Apache",
+        "Chef",
+        "Capistrano"
+      ]
+    },
+    {
+      "name": "Systems",
+      "level": "",
+      "keywords": [
+        "Mac OS",
+        "CentOS",
+        "Ubuntu",
+        "Windows"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "Skiing",
+        "Technology",
+        "Travel",
+        "Gardening",
+        "Gaming"
+      ]
+    }
+  ],
+  "references": []
+}
