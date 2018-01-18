@@ -16,6 +16,9 @@
         .relative {
       position: relative;
     }
+    hr {
+      margin: 10px 0 0 0;
+    }
     .clear-margin {
       margin: 0;
     }
@@ -112,8 +115,8 @@
     }
     .background-details .detail {
       display: table;
-    /*  padding: 10px 0;
-    */}
+      padding: 7px 0;
+    }
     .background-details .detail .icon {
       min-width: 45px;
       max-width: 45px;
@@ -319,7 +322,7 @@
         margin-top: 10px;
       }
     }
-    @media (max-width: 768px) {
+    @media (max-width: 890px) {
       .contact-details {
         text-align: center;
       }
@@ -345,7 +348,7 @@
       display: table-cell;
       vertical-align: middle;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 890px) {
       .contact-details .detail {
         position: relative;
         float: left;
@@ -368,10 +371,10 @@
         display: inline-block;
       }
     }
-    @media (max-width: 992px) and (min-width: 768px) {
+    @media (max-width: 992px) and (min-width: 890px) {
       .contact-details .detail {
         float: left;
-        width: 25%;
+        width: 20%;
       }
     }
     .social-links {
@@ -623,7 +626,7 @@
         margin-left: 20px;
       }
     }
-    @media (max-width: 768px) {
+    @media (max-width: 890px) {
       .quote {
         font-size: inherit;
       }
@@ -649,13 +652,18 @@
         margin-left: 15px;
       }
       .contact-details .detail {
+        margin-top: 10px;
         position: relative;
         float: left;
-        width: 25%;
+        width: 20%;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px;
         padding: 0;
+      }
+      .contact-details .detail:first-child {
+        padding-left: 0;
+        margin-left: 0;
       }
       .floating-nav,
       .floating-nav-trigger {
@@ -749,6 +757,14 @@ Boston, MA, US
 <a href="mailto:stfnhh@protonmail.com" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="225156444c4a4a6252504d564d4c4f434b4e0c414d4f">stfnhh@protonmail.com</span></a>
                             </span>
                         </div>
+                        <div class="detail">
+                            <span class="icon" title="GitHub">
+<i class="fa fa-lg fa-github"></i>
+</span>
+                            <span class="info">
+<a href="https://www.github.com/stfnhrrs"  class="link-disguise">github.com/stfnhrrs</a>
+</span>
+                        </div>
 
                         <div class="detail">
                             <span class="icon" title="Languages I speak">
@@ -785,7 +801,7 @@ Boston, MA, US
                                                 <small>
 <span class="space-right">
 Aug, 2012 -
-Jan, 2018
+Current
 </span>
 <span>
 <i class="fa fa-clock-o"></i>
@@ -965,37 +981,6 @@ May, 2010
                                 </div>
                             </div>
                         </div>
-                        <div class="detail" id="education">
-                            <div class="icon">
-                                <i class="fa fa-lg fa-mortar-board"></i>
-                                <span class="mobile-title">Education</span>
-                            </div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">
-                                    Education
-                                </h4>
-                                <div class="content">
-                                    <ul class="list-unstyled">
-                                        <li class="card card-nested">
-                                            <div class="content">
-                                                <p class="clear-margin relative">
-                                                    <strong>Software Engineering, Bachelor</strong>,&nbsp; New England Institute of Technology
-                                                </p>
-                                                <p class="text-muted">
-                                                    <small>
-Sep, 2008 -
-Dec, 2011
-</small>
-                                                </p>
-                                                <i></i>
-                                                <div class="space-top labels">
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         <div class="detail" id="awards">
                             <div class="icon">
                                 <i class="fa fa-lg fa-trophy"></i>
@@ -1013,9 +998,7 @@ Dec, 2011
                                                     <strong>Emmy – Social TV Experience</strong>,&nbsp; Television Academy Award
                                                 </p>
                                                 <p class="text-muted">
-                                                    <small>
-Awarded on: Aug 01, 2014
-</small>
+                                                    <small>Awarded: Aug 2014</small>
                                                 </p>
                                                 <p class="clear-margin"> National Geographic: Live From Space </p>
                                             </div>
@@ -1026,9 +1009,7 @@ Awarded on: Aug 01, 2014
                                                     <strong>Overall Aesthetic / Best Practice</strong>,&nbsp; Silver Cannes Cyber Lions
                                                 </p>
                                                 <p class="text-muted">
-                                                    <small>
-Awarded on: Aug 01, 2014
-</small>
+                                                    <small>Awarded: Aug 2014</small>
                                                 </p>
                                                 <p class="clear-margin"> National Geographic: Killing Kennedy </p>
                                             </div>
@@ -1039,11 +1020,38 @@ Awarded on: Aug 01, 2014
                                                     <strong>Best in Technology</strong>,&nbsp; The Shorty Awards
                                                 </p>
                                                 <p class="text-muted">
-                                                    <small>
-Awarded on: Mar 01, 2015
-</small>
+                                                    <small>Awarded: Mar, 2015</small>
                                                 </p>
                                                 <p class="clear-margin"> National Geographic: Live From Space </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="detail" id="education">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-mortar-board"></i>
+                                <span class="mobile-title">Education</span>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Education
+                                </h4>
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        <li class="card card-nested">
+                                            <div class="content">
+                                                <p class="clear-margin relative">
+                                                    <strong>Software Engineering, Bachelor</strong>,&nbsp; New England Institute of Technology
+                                                </p>
+                                                <p class="text-muted">
+                                                    <small>2008 - 2011</small>
+                                                </p>
+                                                <i></i>
+                                                <div class="space-top labels">
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
